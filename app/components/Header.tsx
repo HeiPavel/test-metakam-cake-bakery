@@ -1,0 +1,21 @@
+import Image from 'next/image'
+import logo from '@/assets/image/logo.png'
+import { FaCartArrowDown } from 'react-icons/fa'
+
+export const Header = () => {
+  return (
+    <header className='py-2 px-8 border-b border-grey-border'>
+      <div className='h-full container grid grid-cols-[1fr_auto] items-center'>
+        <Image
+          src={logo}
+          priority={true}
+          alt='logo image'
+          className='h-24 tablet:h-28 laptop:h-32 w-auto justify-self-start laptop:justify-self-center'
+        />
+        <FaCartArrowDown
+          className='justify-self-end size-8 text-brown cursor-pointer'
+        />
+      </div>
+    </header>
+  )
+}
