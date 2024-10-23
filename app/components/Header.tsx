@@ -10,6 +10,7 @@ export const Header = () => {
           src={logo}
           alt='logo image'
           className='h-24 tablet:h-28 laptop:h-32 w-auto justify-self-start laptop:justify-self-center'
+          fetchPriority='high'
         />
         <FaCartArrowDown
           className='justify-self-end size-8 text-brown cursor-pointer'

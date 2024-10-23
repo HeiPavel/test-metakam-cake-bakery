@@ -10,6 +10,7 @@ export const Card = ({cakeData: {title, image, price}}: {cakeData: CakeType}) =>
         src={image}
         alt='cake image'
         className='w-10/12'
+        fetchPriority='high'
       />
       <div className='px-4 flex justify-between w-full'>
         <p className='text-lg font-semibold'>{`$${price}`}</p>
