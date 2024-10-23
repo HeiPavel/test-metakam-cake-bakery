@@ -8,7 +8,6 @@ export const Header = () => {
       <div className='h-full container grid grid-cols-[1fr_auto] items-center'>
         <Image
           src={logo}
-          priority={true}
           alt='logo image'
           className='h-24 tablet:h-28 laptop:h-32 w-auto justify-self-start laptop:justify-self-center'
         />
