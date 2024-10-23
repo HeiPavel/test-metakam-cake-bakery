@@ -4,7 +4,7 @@ import { FaCartArrowDown } from 'react-icons/fa'
 
 export const Header = () => {
   return (
-    <header className='py-2 px-8 border-b border-grey-border'>
+    <header className='py-2 border-b border-brown'>
       <div className='h-full container grid grid-cols-[1fr_auto] items-center'>
         <Image
           src={logo}

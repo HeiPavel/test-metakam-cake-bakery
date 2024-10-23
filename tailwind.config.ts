@@ -23,22 +23,17 @@ const config: Config = {
     },
     extend: {
       colors: {
-        white: {
-          light: '#F3F3F3',
-          default: '#FDFDFD'
-        },
-        black: {
-          light: '#303031',
-          dark: '#0C0C0C'
-        },
+        white: '#FFFFFF',
         brown: '#482A20',
-        grey: {
-          default: '#3C3C3D',
-          light: '#D9D9D9',
-          dark: '#474747',
-          border: '#8E8B8B'
-        }
+        pink: '#FEF1FA',
+        grey: '#8E8B8B'
       },
+      dropShadow: {
+        'button': '3px 3px 5px rgba(12, 12, 12, 0.8)'
+      },
+      transitionProperty: {
+        'filter': 'filter'
+      }
     },
   },
   plugins: [],

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import {Open_Sans} from 'next/font/google'
 import { Header } from './components/Header'
+import { Theme } from '@radix-ui/themes'
 import './globals.css'
 
 const open_sans = Open_Sans({
@@ -21,10 +22,14 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${open_sans.className} antialiased bg-white-default`}
+        className={`${open_sans.className} antialiased bg-pink px-8`}
       >
         <Header/>
-        {children}
+        <main className='container'>
+          <Theme hasBackground={false}>
+            {children}
+          </Theme>
+        </main>
       </body>
     </html>
   );
