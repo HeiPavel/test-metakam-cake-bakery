@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import {Open_Sans} from 'next/font/google'
 import { Header } from './components/Header'
+import { Footer } from './components/Footer'
 import { Theme } from '@radix-ui/themes'
 import './globals.css'
 
@@ -30,6 +31,7 @@ export default function RootLayout({
             {children}
           </Theme>
         </main>
+        <Footer/>
       </body>
     </html>
   );
