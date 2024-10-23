@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import footer_logo from '@/assets/image/footer_logo.png'
+import footer_logo from '@/assets/image/footer_logo.webp'
 
 export const Footer = () => {
   return (

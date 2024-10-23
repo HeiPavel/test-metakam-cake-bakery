@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '@/assets/image/logo.png'
+import logo from '@/assets/image/logo.webp'
 import { FaCartArrowDown } from 'react-icons/fa'
 
 export const Header = () => {
